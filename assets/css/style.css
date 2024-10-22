@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.image {
+    height: 250px;
+    width: 500px;
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 540px;
+    max-height: 80vh;
+    /* text-align: center; */
+}
+
+strong {
+    font-weight: bold;
+}
