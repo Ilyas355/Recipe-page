@@ -1,41 +1,113 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+} */
+
+html{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: hsl(30, 54%, 90%);
 }
 
 body{
-    height: 100%;
+    /* margin-left: 40%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
+
+
 
 img{
     width: 100%;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
 }
 
 
 .image {
     height: 250px;
-    width: 500px;
+    width: 539px;
     background-size: cover;
-}
+    
+} */
 
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    max-width: 540px;
-    max-height: 80vh;
+
+
+
+
+.item {
     /* text-align: center; */
+    max-width: 500px;
+}
+h3{
+    font-family: 'outfit';
+    color:  hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Young Serif';
+    color:  hsl(14, 45%, 36%);
+    font-weight: 400;
 }
 
-strong {
-    font-weight: bold;
+.preparation-time{
+    width: 510px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 0.5rem 1rem !important;
 }
+
+table,
+th,
+td {
+    padding: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+td {
+    border: none;
+    
+}
+
+
+.bottom{
+    border-bottom: 1px solid black;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 560px;
+    padding: 2rem;
+    padding-right: 1rem;
+    border-radius: 18px;
+}
+p{
+    font-size: 16px;
+    font-family: 'outfit';
+}
+
+li{
+    font-family: 'outfit';
+}
+
+.header {
+    font-family: 'Young Serif';
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+    font-size: 33px;
+}
+strong {
+    font-weight: 600;
+} 
+
